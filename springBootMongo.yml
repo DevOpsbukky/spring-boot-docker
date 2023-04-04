@@ -24,7 +24,7 @@ spec:
         app: springboot
     spec:
       containers:
-      - image: mylandmarktech/springapp
+      - image: adeose/bukky:5
         name: springboot
         ports:
         - containerPort: 8080  
